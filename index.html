@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Tabela de Jogos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Jogo</th>
+                <th>Tipo</th>
+                <th>Já joguei?</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Red dead</td>
+                <td>Ação</td>
+                <td>Não</td>
+            </tr>
+
+            <tr>
+                <td>Undertale</td>
+                <td>Indie</td>
+                <td rowspan="2">Sim</td>
+            </tr>
+
+            <tr>
+                <td>Fnaf</td>
+                <td>Terror</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Conclusão</td>
+                <td colspan="2">Todos jogos bons</td>
+            </tr>
+        </tfoot>
+    </table>
+  </body>
+</html>
